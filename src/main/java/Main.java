@@ -7,6 +7,8 @@ public class Main
     public static void main(String[] args)
     {
 
+        createUser();
+
         System.out.println("Podaj pełną ściężkę do pliku csv, razem z naswą pliku i rozszerzeniem .csv");
         String filename = sc.next();
         int amountOfWinners = 0;
@@ -28,9 +30,10 @@ public class Main
         System.out.println(Arrays.toString((shuffleMachine.drawOfWinners())));
 
 
+
     }
 
-    public void createUser()
+    public static void createUser()
     {
         String name, lastName;
         int age;
