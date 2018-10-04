@@ -25,12 +25,10 @@
       <file leaf-file-name="ShuffleMachine.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/ShuffleMachine.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1753">
+            <state relative-caret-position="2465">
               <caret line="148" column="43" selection-start-line="148" selection-start-column="43" selection-end-line="148" selection-end-column="43" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#679#689#0" expanded="true" />
-                <element signature="e#1403#1411#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -54,6 +52,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -76,12 +77,15 @@
     <option name="width" value="1400" />
     <option name="height" value="1000" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -111,8 +115,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="RunDashboard">
@@ -207,18 +209,17 @@
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32897604" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.32897604" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
-      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32897604" />
       <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32897604" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2739872" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2771855" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
@@ -231,12 +232,37 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.32897604" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ShuffleMachine.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2465">
+          <caret line="148" column="43" selection-start-line="148" selection-start-column="43" selection-end-line="148" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-9.0.4/lib/src.zip!/java.base/java/util/regex/Matcher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="10234">
+          <caret line="646" selection-start-line="646" selection-end-line="646" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
@@ -257,8 +283,6 @@
           <caret line="142" column="12" selection-start-line="142" selection-start-column="12" selection-end-line="142" selection-end-column="12" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#679#689#0" expanded="true" />
-            <element signature="e#1403#1411#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -276,8 +300,6 @@
           <caret line="164" column="40" selection-start-line="164" selection-start-column="40" selection-end-line="164" selection-end-column="40" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#679#689#0" expanded="true" />
-            <element signature="e#1403#1411#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -309,8 +331,6 @@
           <caret line="143" selection-start-line="143" selection-end-line="143" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#679#689#0" expanded="true" />
-            <element signature="e#1403#1411#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -335,8 +355,6 @@
           <caret line="88" column="26" selection-start-line="88" selection-start-column="26" selection-end-line="88" selection-end-column="26" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#679#689#0" expanded="true" />
-            <element signature="e#1403#1411#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -354,8 +372,6 @@
           <caret line="67" selection-start-line="67" selection-end-line="67" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#679#689#0" expanded="true" />
-            <element signature="e#1403#1411#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -380,8 +396,6 @@
           <caret line="63" column="35" lean-forward="true" selection-start-line="63" selection-start-column="35" selection-end-line="63" selection-end-column="35" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#679#689#0" expanded="true" />
-            <element signature="e#1403#1411#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -399,8 +413,6 @@
           <caret line="27" column="71" selection-start-line="27" selection-start-column="71" selection-end-line="27" selection-end-column="71" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#679#689#0" expanded="true" />
-            <element signature="e#1403#1411#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -418,8 +430,6 @@
           <caret line="27" column="89" selection-start-line="27" selection-start-column="89" selection-end-line="27" selection-end-column="89" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#679#689#0" expanded="true" />
-            <element signature="e#1403#1411#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -482,12 +492,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ShuffleMachine.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1753">
+        <state relative-caret-position="2465">
           <caret line="148" column="43" selection-start-line="148" selection-start-column="43" selection-end-line="148" selection-end-column="43" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#679#689#0" expanded="true" />
-            <element signature="e#1403#1411#0" expanded="true" />
           </folding>
         </state>
       </provider>
