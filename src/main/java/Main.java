@@ -2,71 +2,34 @@ import java.util.*;
 
 public class Main
 {
-    static Scanner sc  = new Scanner(System.in);
+    private static Scanner sc  = new Scanner(System.in);
 
 
     public static void main(String[] args)
     {
-        createUser();
 
-        calculate();
-
-        System.out.println("Podaj pełną ściężkę do pliku csv, razem z naswą pliku i rozszerzeniem .csv");
-        String filename = sc.next();
+        //System.out.println("Podaj pełną ściężkę do pliku csv, razem z naswą pliku i rozszerzeniem .csv");
+        String filename = "list_of_participants.csv";//sc.next();
         int amountOfWinners = 0;
         boolean flag = true;
         while(flag)
         {
-            System.out.println("Podaj ilość ilość wygranych maili");
+            ShuffleMachine shuffleMachine = new ShuffleMachine(filename);
+            int maxWinners = shuffleMachine.getAmountOfWinners();
+            System.out.println("Podaj ilość wygranych maili");
             amountOfWinners = sc.nextInt();
-            if (amountOfWinners < 1)
-                System.out.println("Ilość wygranych nie może być mniejsza niż jeden !");
+            if (amountOfWinners < 1 || amountOfWinners > maxWinners)
+                System.out.println("Ilość wygranych nie może być mniejsza niż jeden lub większa niż " + maxWinners + " !");
             else
                 flag = false;
         }
 
-
         ShuffleMachine shuffleMachine = new ShuffleMachine(filename, amountOfWinners);
 
-
-        System.out.println(Arrays.toString((shuffleMachine.drawOfWinners())));
-
-
-    }
-
-    public static void calculate()
-    {
-        Integer x, y;
-
-        System.out.println("Type first number");
-        x = sc.nextInt();
-        System.out.println("Type second number");
-        y = sc.nextInt();
-
-        System.out.println("Sum: " + Calculator.add(x, y));
-        System.out.println("Subtract: " + Calculator.subtract(x, y));
-        System.out.println("Multiply: " + Calculator.multiply(x, y));
-        System.out.println("Divide: " + Calculator.divide(x, y));
-
+        for(Participant participant : shuffleMachine.getWinners()){
+            System.out.println(participant);
+        }
 
     }
 
-    public static void createUser()
-    {
-        String name, lastName;
-        int age;
-
-        System.out.println("Type a name");
-        name = sc.next();
-
-        System.out.println("Type a lastName");
-        lastName = sc.next();
-
-        System.out.println("Type your age");
-        age = sc.nextInt();
-
-        User user = new User(name, lastName, age);
-        System.out.println("Created new user: " + user.toString());
-
-    }
 }
